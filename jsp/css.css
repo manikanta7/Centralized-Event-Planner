@@ -1,0 +1,72 @@
+#d1{
+
+background-color: green;
+
+color:whitesmoke;
+
+font-size: 50px;
+
+padding:1px;
+
+}
+
+.button{
+
+color: white;
+
+background-color: lightblue;
+
+padding:15px 94px;
+
+float: left;
+
+display: inline-block;
+
+}
+
+button:link
+{
+
+color: red;
+}
+button:visited {
+
+color: green;
+}
+button:hover {
+
+color: hotpink;
+}
+button:active {
+
+color: blue;
+}
+
+.button1{
+
+font-size: 20px;
+
+color: blueviolet;
+
+padding:15px 94px;
+
+background-color: transparent;
+
+
+}
+
+button1:link {
+
+color: red;
+}
+button1:visited
+{
+
+color: green;
+}
+button1:hover {
+ color: hotpink;
+}
+button1:active {
+ color: blue;
+}

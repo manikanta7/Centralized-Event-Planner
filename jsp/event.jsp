@@ -1,0 +1,58 @@
+<%-- 
+    Document   : event
+    Created on : May 20, 2017, 10:45:36 AM
+    Author     : Kolli
+--%>
+
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Event Page</title>
+        <link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="css.css">
+</head>
+
+<body>
+
+<center>
+<div id="d1">
+Centralized Event Planner across different social media sites
+</div>
+</center>
+
+<a href="index1.jsp"><button class="button" style="width:280px; height:30px">
+HOME
+</button></a>
+ 
+<a href='about.jsp'><button class="button" style="width:280px; height:30px">
+about us
+</button></a>
+
+<a href='socialmedia.jsp'><button class="button" style="width:280px; height:30px">
+Social Media
+</button></a>
+
+<a href="login.jsp"> <button class="button" style="width:280px; height:30px">
+Event
+</button></a>
+
+<a href='contact.jsp'><button class="button" style="width:280px; height:30px">
+CONTACT US
+</button></a>
+<br>
+<table align="center" >
+    <tr><td> <input type="checkbox" name="Mobile apps">Mobile apps </td></tr>
+    <tr><td> <input type="checkbox" name="Data analytics">Data analytics </td></tr>
+    <tr><td> <input type="checkbox" name="Event marketing">Event marketing </td></tr>
+    <tr><td> <input type="checkbox" name="Social media">Social media </td></tr>
+    <tr><td> <input type="checkbox" name="Event registration">Event registration </td></tr>
+    <tr><td> <input type="checkbox" name="Onsite Solutions">Onsite Solutions </td></tr>
+    <tr><td> <input type="checkbox" name="House&travel">House&travel</td></tr>
+    <tr><td> <input type="checkbox" name="venue resourcing">venue resourcing </td></tr>
+    <tr><td> <input type="submit" name="Submit" value="submit"></td></tr>
+</table>
+        
+    </body>
+</html>
